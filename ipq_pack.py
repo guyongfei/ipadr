@@ -5,8 +5,8 @@ import struct
 import binascii
 import csv
 
-fdat = open('e:/ipadr.dat', 'wb')
-excelfile = 'D:/tools/ipaddr/IP(20160905).csv'
+fdat = open('ipadr.dat', 'wb')
+excelfile = 'IP(20160905).csv'
 
 len_ip = []
 array_ip = []

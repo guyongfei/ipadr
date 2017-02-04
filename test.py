@@ -7,7 +7,7 @@ import sys
 
 script, ip = sys.argv
 
-f = 'e:/ipadr.dat'
+f = 'ipadr.dat'
 IPQ.load(f)
 ipaddr = IPQ.find(ip)
 print ipaddr
