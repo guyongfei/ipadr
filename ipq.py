@@ -21,6 +21,7 @@ class IPQ:
                 IPQ.count_ip.append(0)
                 index = 0
                 for item in len_ip:
+                    # print index, ':', item
                     IPQ.count_ip.append(IPQ.count_ip[index]+item)
                     index = index +1
         except Exception as ex:
@@ -33,7 +34,7 @@ class IPQ:
         binary = IPQ.binary
         total_len = IPQ.total_len
         count_ip = IPQ.count_ip
-        print count_ip
+        # print count_ip
         nip = inet_aton(ip)
         ipdot = ip.split('.')
         firstip = int(ipdot[0])
